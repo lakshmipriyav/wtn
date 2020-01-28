@@ -13,7 +13,7 @@ class Percentage{
    double getChangePercentage()
     {
         
-        return ((pprice-cprice)/100);
+        return (((pprice-cprice)/pprice)*100);
     }
 }
 
